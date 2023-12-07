@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = MyConfig.class)
-public class ContainerManagedCarsDaoImplTest {
+public class CarsTest {
 
     @Autowired
     private CarsDao carsDao;
